@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 33);
+}
+.nav-container{
+width: 100%;
+background: linear-gradient(90deg,rgb(128, 0, 85),red);
+display: flex;
+height: 80px;
+align-items: center;
+}
+.logo{
+padding-left: 30px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+color: white;
+font-size: 20px;
+}
+.nav-container a{
+    display: inline-block;
+    padding: 50px;
+}
+.nav-link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+.nav-link a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.about-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.photo{
+    height: 350px;
+    width: 400px;
+    background-image: url(random.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.myself{
+    height: 350px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    display: block;
+    padding: 40px;
+}
+.myself h1{
+    color: red;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.myself .about-section{
+    color: white;
+}
+.click{
+    height: 40px;
+    width: 300px;
+    background: linear-gradient(45deg,green,white,orange);
+    border: none;
+    color: blue;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 25px;
+}
+.heading-skill{
+    color: white;
+    text-align: center;
+}
+.heading-cont{
+    color: rgb(190, 185, 185);
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+  }
+  
+  .card {
+    width: 60rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  
+  
+  }
+  .skill-header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  
+  }
+  
+  .skill-name {
+    width: 120px;
+    font-size: 16px;
+  }
+  
+  .html:hover {
+    color: blue;
+  
+  }
+  
+  .css:hover {
+    color: purple;
+  }
+  
+  .js:hover {
+    color: red;
+  }
+  
+  .skill-level {
+    width: 130px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 20px;
+  
+  }
+  
+  .skill-percent {
+    background: linear-gradient(90deg, red, purple);
+    height: 100%;
+  }
+  
+  .skill-percent-number {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  .project-heading{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .project_container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    padding:10px;
+    justify-content:space-between;
+    grid-gap: 40px;
+
+}
+
+.project_item{
+    background-color: beige;
+    border-radius: 15px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.project_image{
+    width:100%;
+    border-radius: 15px;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+  .work-cont{
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.work-heading{
+    height: 500px;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+#content{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.first-container{
+    height: 400px;
+    width: 350px;
+    background-color: aqua;
+    margin-right: 700px;
+    margin-top: 60px;
+    border-radius: 5%;
+    background-image: url(add.jpg);
+    background-size: cover;
+}
+.second-container{
+    height: 400px;
+    width: 350px;
+    background-color: chartreuse;
+    margin-top: 150px;
+    margin-right: 1px;
+    border-radius: 5%;
+    background-image: url(social.png);
+    background-size: cover;
+}
+.third-container{
+    height: 400px;
+    width: 350px;
+    background-color: crimson;
+    margin-top: 150px;
+    margin-right: 105px;
+    border-radius: 5%;
+    background-image: url(sift.jpg);
+    background-size: cover;
+}
+.see-bottom{
+    color: white;
+    margin-left: 47%;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 0, 33);
+    border-color: rgb(193, 12, 12);
+    border: 2px;
+}
+.add-container{
+    height: 605px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-side{
+    height: 400px;
+    width: 350px;
+}
+.letter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.e-mail{
+    display: flex;
+}
+.number{
+    margin-top: 35px;
+    color: rgb(255, 0, 0);
+}
+.address-section{
+    margin-top: 15px;
+    color: white;
+    margin-left: 25px;
+}
+.searc{
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.dfg{
+    margin-right: 15px;
+    text-decoration: none;
+    color: aqua;
+}
+.sece{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    margin-top: 50px;
+    height: 30px;
+    width: 110px;
+    border-radius: 5%;
+    border: none;
+}
+.bhai{
+    height: 400px;
+    width: 700px;
+}
+.gan{
+    width: 600px;
+    height: 35px;
+    background-color: rgb(52, 51, 51);
+    border: 2px solid white;
+    color: wheat;
+    font-size: 15px;
+}
+.singh{
+    width: 600px;
+    background-color: rgb(52, 51, 51);
+    margin-bottom: 40px;
+    border: none;
+    padding-bottom: 90px;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    border: 2px solid white;
+}
+.rts{
+    color: white;
+    background-color: red;
+    width: 110px;
+    height: 32px;
+    border: none;
+}
+.footer-section{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(52, 51, 51);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
